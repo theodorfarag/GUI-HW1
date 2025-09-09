@@ -1,0 +1,128 @@
+/*File: style.css
+GUI Assignment: Creating Your First Web Page for HW1
+Theodor Farag, UMass Lowell Computer Science, theodor_farag@student.uml.edu
+Copyright (c) 2025 by Theodor. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by TF on September 9, 2025 at 12:30 pM
+*/
+body {
+/*
+    Set dark background and white text for readability
+*/
+    background-color: #111827;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.center {
+/*
+    Center content horizontally using flexbox
+*/
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+/*
+    Card style for content blocks
+*/
+    background-color:#364153;
+    width: 75%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.spacing-bttm {
+/*
+    Adds space below elements
+*/
+    margin-bottom: 10px;
+}
+
+.separator {
+/*
+    Layout for side-by-side content
+*/
+    display: flex;
+}
+.card-img {
+/*
+    Container for images in cards
+*/
+    width: fit-content;
+}
+
+ul {
+/*
+    Use square bullets for lists
+*/
+    list-style-type: square;
+}
+
+table, th, td {
+/*
+    Table border styling
+*/
+    border: 2px #242b36 solid;
+    border-collapse: collapse;
+}
+td, th {
+/*
+    Padding for table cells
+*/
+    padding: 5px;
+}
+th {
+/*
+    Table header background
+*/
+    background-color: #364153;
+}
+td {
+/*
+    Table cell background and text color
+*/
+    background-color: #b8bcc4;
+    color: #242b36;
+}
+
+.width {
+/*
+    Set width and center block
+*/
+    width: 75%;
+    margin: auto;
+}
+.quarter {
+/*
+    25% width for side cards/images
+*/
+    width: 25%;
+    margin-left: 10px;
+}
+.half {
+/*
+    50% width for half-width blocks
+*/
+    width: 50%;
+}
+li > a {
+/*
+    Style links in lists
+*/
+    color: #9da5b1;
+}
+#lebron {
+/*
+    Responsive image sizing for LeBron image
+*/
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.spacing-top {
+/*
+    Adds space above elements
+*/
+    margin-top: 20px;
+}
